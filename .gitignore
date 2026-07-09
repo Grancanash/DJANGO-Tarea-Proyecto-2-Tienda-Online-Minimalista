@@ -1,0 +1,34 @@
+# ─── Dependencias ───
+backend/venv/
+frontend/node_modules/
+
+# ─── Entorno ───
+.env
+.env.production
+
+# ─── Django ───
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+backend/staticfiles/
+*.log
+db.sqlite3
+
+# ─── React / Vite ───
+frontend/dist/
+
+# ─── Docker ───
+docker-compose.override.yml
+
+# ─── Sistema ───
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.Zone.Identifier
+
+# ─── IDE ───
+.vscode/
+.idea/

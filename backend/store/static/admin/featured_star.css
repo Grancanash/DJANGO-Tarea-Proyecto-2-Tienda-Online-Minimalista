@@ -1,0 +1,15 @@
+/* Estilo para la columna de estrella destacada en el admin */
+.field-featured_star {
+    text-align: center !important;
+}
+
+.field-featured_star a {
+    transition: filter 0.15s ease, opacity 0.15s ease;
+}
+
+.field-featured_star a:hover {
+    filter: none !important;
+    opacity: 1 !important;
+    transform: scale(1.2);
+    display: inline-block;
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Apuntamos al archivo JS explícitamente para que Vite 8 no se confunda con el .css */
+@plugin "daisyui/index.js" {
+    themes: corporate;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('./assets/fonts/sensation/Sansation-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('./assets/fonts/sensation/Sansation-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('./assets/fonts/sensation/Sansation-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@theme {
+    --font-sans: "Sansation", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+    font-family: var(--font-sans);
+}

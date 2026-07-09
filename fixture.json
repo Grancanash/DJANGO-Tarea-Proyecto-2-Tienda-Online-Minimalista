@@ -1,0 +1,1010 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-04-28T07:59:51.238Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-04-28T08:01:02.903Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-06-09T09:40:22.941Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "44",
+    "object_repr": "Chronos Cactus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Destacado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-06-09T19:05:58.721Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "pepito",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-06-09T19:06:35.716Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "pepito",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-06-09T19:06:47.593Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "pepito",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-06-09T19:07:35.755Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "pepito",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-06-09T19:09:04.550Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "pepito",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$aWJIwFTu2Qy8Ff6YevY6f9$UTV4yXJvi+nSWjvpFGBttB9Aq2hg4uoicWt0mLo3QK8=",
+    "last_login": "2026-06-09T19:08:58.363Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-28T07:55:37.587Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$YbTPOP0km2HB3IAARnixOh$4idnXKJMK7XuRQX9cGtcUFhEjQ6frZgtmtY7bxRelcw=",
+    "last_login": "2026-06-09T19:07:43Z",
+    "is_superuser": false,
+    "username": "pepito",
+    "first_name": "",
+    "last_name": "",
+    "email": "pepito@pepito.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-09T19:03:08Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8hvt0irpk61w2wi7kwdj4kuii5wbu17v",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlm2YP2hpOcM1np3jQPIkeKkQtwdLKUATTfvzbxUwm2taeuypInVWVl1-O0y0kPaAHzHdps1zW1dpqyHonfa9XVmeV529--gYq9j7VyJ7EsMwOTM0QBSlm8Cog0nZ8iCAIt3QBSD9wJQovVAAVAMqPcH_5U4Ug:1wHf3E:l4vHulTSp0UK7dqOB1tlgDFMX89SAsXtP_nSklR_thE",
+    "expire_date": "2026-05-12T09:48:20.473Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "baacyw6qczznqdjffexxmbls71uw9mij",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmQAGX7j0DGYZBqoYmpV0Z765NutDtf-_9l4i4rTVunZc4ZXEWIE6_W0J6cNtBvmO7zZLmti5TkrsiD9rldc78vBzu30HFXr_1SKwLGKBsPZlBmZQ0WCyQnFLOsyVP6BB0UioABMYBbFElaGtGBhbvD92VN4M:1wIVUo:LT7ACuZIwGtrIouKT-8C-RGpqNoKhbiUdS8Yoc7A_xk",
+    "expire_date": "2026-05-14T17:48:18.738Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wtcfvc2h5wh3n5sigehgfkz4g6b7y6jd",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmQAGX7j0DGYZBqoYmpV0Z765NutDtf-_9l4i4rTVunZc4ZXEWIE6_W0J6cNtBvmO7zZLmti5TkrsiD9rldc78vBzu30HFXr_1SKwLGKBsPZlBmZQ0WCyQnFLOsyVP6BB0UioABMYBbFElaGtGBhbvD92VN4M:1wX1oo:SPQ_D3dIQ_B5YuVjxRFAJx6l0wdriM-2JyY2D_Fswt0",
+    "expire_date": "2026-06-23T19:08:58.400Z"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Bioluminiscente"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Rara"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 6,
+  "fields": {
+    "name": "Estelar"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Suculenta"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Trepadora"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 9,
+  "fields": {
+    "name": "Desértica"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 10,
+  "fields": {
+    "name": "Tropical"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 11,
+  "fields": {
+    "name": "Laboratorio"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 12,
+  "fields": {
+    "name": "Tapizante"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 13,
+  "fields": {
+    "name": "Única"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "name": "Nebuliris Lumina",
+    "category": 4,
+    "summary": "Brilla con luz púrpura purp galáctica.",
+    "description": "Originaria de Kepler-186f, esta planta metaboliza la radiación ambiental en bioluminiscencia. Sus hojas iridiscentes cambian de tono según la hora del día. Purifica el aire y no requiere agua.",
+    "price": "85.00",
+    "stock": 16,
+    "featured": false,
+    "image": "products/nebuliris-lumina-1.jpg",
+    "image2": "products/nebuliris-lumina-2.jpg",
+    "image3": "products/nebuliris-lumina-3.jpg",
+    "image4": "products/nebuliris-lumina-4.jpg",
+    "created_at": "2026-05-02T18:03:00.533Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "name": "Void Creeper",
+    "category": 5,
+    "summary": "Enredadera negra que absorbe la luz.",
+    "description": "Prospera en ausencia de luz. Sus hojas tienen una textura aterciopelada que absorbe el 99.9% de la luz visible. Es de crecimiento lento y requiere un ambiente fresco.",
+    "price": "120.00",
+    "stock": 3,
+    "featured": false,
+    "image": "products/void-creeper-2.jpg",
+    "image2": "products/void-creeper-3.jpg",
+    "image3": "products/void-creeper-4.jpg",
+    "image4": "products/void-creeper-1.jpg",
+    "created_at": "2026-05-02T18:05:05.286Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "name": "Solar Flare Bloom",
+    "category": 6,
+    "summary": "Flores que emiten calor térmico.",
+    "description": "Cultivada en estaciones orbitales, sus pétalos imitan la estructura del plasma solar. Emite un calor suave y constante. Requiere alta luminosidad para florecer.",
+    "price": "68.00",
+    "stock": 5,
+    "featured": false,
+    "image": "products/solar-flare-bloom-1.jpg",
+    "image2": "products/solar-flare-bloom-2.jpg",
+    "image3": "products/solar-flare-bloom-3.jpg",
+    "image4": "products/solar-flare-bloom-4.jpg",
+    "created_at": "2026-05-02T18:08:29.072Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "name": "Lunar Silk Moss",
+    "category": 12,
+    "summary": "Musgo plateado suave como la seda.",
+    "description": "Crece en grietas lunares ricas en silicatos. Sus filamentos son extremadamente finos y reflejan la luz con un brillo satinado. Resistente a la sequia.",
+    "price": "35.00",
+    "stock": 5,
+    "featured": false,
+    "image": "products/lunar-silk-moss-1.jpg",
+    "image2": "products/lunar-silk-moss-2.jpg",
+    "image3": "products/lunar-silk-moss-3.jpg",
+    "image4": "products/lunar-silk-moss-4.jpg",
+    "created_at": "2026-05-02T18:10:48.976Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "name": "Andromeda Fern",
+    "category": 5,
+    "summary": "Helecho con patrones fractales.",
+    "description": "Cada hoja es una réplica exacta de la planta completa. Originaria de Andrómeda, requiere humedad constante y nutrientes específicos.",
+    "price": "90.00",
+    "stock": 4,
+    "featured": false,
+    "image": "products/andromeda-fern-1.jpg",
+    "image2": "products/andromeda-fern-2.jpg",
+    "image3": "products/andromeda-fern-3.jpg",
+    "image4": "products/andromeda-fern-4.jpg",
+    "created_at": "2026-05-02T18:12:36.571Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "name": "Starlight Succulent",
+    "category": 7,
+    "summary": "Suculenta con estrellas brillantes.",
+    "description": "Hojas azul plateado cubiertas por puntos blancos que brillan en la oscuridad. Fácil de cuidar, purifica el aire eficientemente.",
+    "price": "45.00",
+    "stock": 18,
+    "featured": false,
+    "image": "products/starlight-succulent-1.jpg",
+    "image2": "products/starlight-succulent-2.jpg",
+    "image3": "products/starlight-succulent-3.jpg",
+    "image4": "products/starlight-succulent-4.jpg",
+    "created_at": "2026-05-02T18:14:06.076Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "name": "Gravity Vine",
+    "category": 5,
+    "summary": "Enredadera que desafía la gravedad.",
+    "description": "Sus ramas crecen en espirales que parecen levitar debido a la alta concentración de magnetita. Requiere soporte para trepar.",
+    "price": "110.00",
+    "stock": 6,
+    "featured": false,
+    "image": "products/gravity-vine-1.jpg",
+    "image2": "products/gravity-vine-2.jpg",
+    "image3": "products/gravity-vine-3.jpg",
+    "image4": "products/gravity-vine-4.jpg",
+    "created_at": "2026-05-02T18:21:16.472Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "name": "Quasar Ivy",
+    "category": 8,
+    "summary": "Hojas doradas geométricas.",
+    "description": "Hojas de amarillo metálico con patrones de circuito impreso. Crecimiento rápido, ideal para cubrir paredes. Necesita mucha luz.",
+    "price": "75.00",
+    "stock": 8,
+    "featured": false,
+    "image": "products/quasar-ivy-1.jpg",
+    "image2": "products/quasar-ivy-2.jpg",
+    "image3": "products/quasar-ivy-3.jpg",
+    "image4": "products/quasar-ivy-4.jpg",
+    "created_at": "2026-05-02T18:23:18.642Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "name": "Nova Cactus",
+    "category": 9,
+    "summary": "Cactus explosión estelar.",
+    "description": "Forma esférica con espinas rojas radiales que recuerdan a una supernova. Muy resistente, requiere poco riego.",
+    "price": "55.00",
+    "stock": 32,
+    "featured": false,
+    "image": "products/nova-cactus-1.jpg",
+    "image2": "products/nova-cactus-2.jpg",
+    "image3": "products/nova-cactus-3.jpg",
+    "image4": "products/nova-cactus-4.jpg",
+    "created_at": "2026-05-02T18:26:25.157Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "name": "Plasma Lily",
+    "category": 5,
+    "summary": "Lirio de plasma liquido.",
+    "description": "Pétalos de plasma rosado que fluyen y cambian de forma. Emite una luz cálida. Requiere entorno controlado.",
+    "price": "130.00",
+    "stock": 1,
+    "featured": false,
+    "image": "products/plasma-lily-4.jpg",
+    "image2": "products/plasma-lily-1.jpg",
+    "image3": "products/plasma-lily-2.jpg",
+    "image4": "products/plasma-lily-3.jpg",
+    "created_at": "2026-05-02T18:28:19.086Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "name": "Cyano-Fern",
+    "category": 10,
+    "summary": "Helecho azul purificador.",
+    "description": "Color verde turquesa único. Eficiente eliminando toxinas pesadas del aire. Prospera en ambientes húmedos.",
+    "price": "55.00",
+    "stock": 13,
+    "featured": false,
+    "image": "products/cyano-fern-4.jpg",
+    "image2": "products/cyano-fern-1.jpg",
+    "image3": "products/cyano-fern-2.jpg",
+    "image4": "products/cyano-fern-3.jpg",
+    "created_at": "2026-05-02T18:32:00.472Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "name": "Proton Sprout",
+    "category": 11,
+    "summary": "Planta eléctrica con pulsos.",
+    "description": "Tallos transparentes con pulsos de energia azul neón. Genera electricidad estática. Requiere nutrientes específicos.",
+    "price": "49.00",
+    "stock": 27,
+    "featured": false,
+    "image": "products/proton-sprout-1.jpg",
+    "image2": "products/proton-sprout-2.jpg",
+    "image3": "products/proton-sprout-3.jpg",
+    "image4": "products/proton-sprout-4.jpg",
+    "created_at": "2026-05-02T18:51:50.698Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "name": "Zenith Moss",
+    "category": 12,
+    "summary": "Musgo que levita",
+    "description": "Esferas de musgo que flotan sobre el sustrato mediante campos magnéticos. Ideal para decoración zen.",
+    "price": "30.00",
+    "stock": 52,
+    "featured": false,
+    "image": "products/zenith-moss-4.jpg",
+    "image2": "products/zenith-moss-1.jpg",
+    "image3": "products/zenith-moss-2.jpg",
+    "image4": "products/zenith-moss-3.jpg",
+    "created_at": "2026-05-02T18:53:39.763Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "name": "Comet Orchid",
+    "category": 10,
+    "summary": "Orquídea con cola de cometa.",
+    "description": "Flores blancas con un espolón largo. Fragante y elegante. Requiere humedad alta y luz Indirecta.",
+    "price": "95.00",
+    "stock": 7,
+    "featured": false,
+    "image": "products/comet-orchid-1.jpg",
+    "image2": "products/comet-orchid-2.jpg",
+    "image3": "products/comet-orchid-3.jpg",
+    "image4": "products/comet-orchid-4.jpg",
+    "created_at": "2026-05-02T18:58:04.340Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "name": "Magma Succulent",
+    "category": 7,
+    "summary": "Suculenta con venas de lava.",
+    "description": "Hojas verde oscuro con venas naranja brillante que parecen lava. Brilla más con altas temperaturas.",
+    "price": "50.00",
+    "stock": 30,
+    "featured": false,
+    "image": "products/magma-succulent-1.jpg",
+    "image2": "products/magma-succulent-2.jpg",
+    "image3": "products/magma-succulent-3.jpg",
+    "image4": "products/magma-succulent-4.jpg",
+    "created_at": "2026-05-02T19:09:58.491Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "name": "Orbit Palm",
+    "category": 6,
+    "summary": "Palmera que imitan órbitas planetarias.",
+    "description": "Sus hojas crecen formando arcos perfectos que imitan órbitas planetarias. Ideal para espacios amplios.",
+    "price": "80.00",
+    "stock": 12,
+    "featured": false,
+    "image": "products/orbit-palm-2.jpg",
+    "image2": "products/orbit-palm-3.jpg",
+    "image3": "products/orbit-palm-4.jpg",
+    "image4": "products/orbit-palm-1.jpg",
+    "created_at": "2026-05-02T19:11:48.910Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "name": "Nebula Rose",
+    "category": 5,
+    "summary": "Rosa con pétalos de nebulosa.",
+    "description": "Cada flor muestra patrones de colores rosa, azul y púrpura. Muy delicada, requiere cuidados expertos.",
+    "price": "101.00",
+    "stock": 4,
+    "featured": false,
+    "image": "products/nebula-rose-1.jpg",
+    "image2": "products/nebula-rose-2.jpg",
+    "image3": "products/nebula-rose-3.jpg",
+    "image4": "products/nebula-rose-4.jpg",
+    "created_at": "2026-05-02T19:13:09.657Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "name": "Chronos Vine",
+    "category": 8,
+    "summary": "Enredadera de hojas verdes y brillantes, con singulares tubos cilíndricos metálicos dorados.",
+    "description": "Esta peculiar especie presenta un tallo leñoso y oscuro que sostiene hojas verdes, carnosas y de textura brillante. Su rasgo más distintivo son las estructuras tubulares cilíndricas de acabado metálico y color dorado que se entrelazan con las ramas, las cuales parecen cumplir una función biológica especializada en la captación de nutrientes o energía dentro de su ecosistema.",
+    "price": "70.00",
+    "stock": 8,
+    "featured": false,
+    "image": "products/chronos-vine-4.jpg",
+    "image2": "products/chronos-vine-1.jpg",
+    "image3": "products/chronos-vine-3_KeIKMVd.jpg",
+    "image4": "products/chronos-vine-4_ZbPuTU9.jpg",
+    "created_at": "2026-05-02T19:15:26.560Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "name": "Pulsar Bloom",
+    "category": 6,
+    "summary": "Flores que parpadean.",
+    "description": "La Pulsar Bloom es una planta alienígena luminiscente de tonos azules y púrpuras. Presenta hojas en espiral que emiten destellos de luz y flores con forma de nebulosa que desprenden un aroma relajante. Se intensifica con luz UV.",
+    "price": "60.00",
+    "stock": 15,
+    "featured": false,
+    "image": "products/pulsar-bloom-3.jpg",
+    "image2": "products/pulsar-bloom-4.jpg",
+    "image3": "products/pulsar-bloom-1.jpg",
+    "image4": "products/pulsar-bloom-2.jpg",
+    "created_at": "2026-05-02T19:19:04.189Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "name": "Titan Arum Mini",
+    "category": 5,
+    "summary": "Versión mini flor cadáver.",
+    "description": "Espectacular espata púrpura. A diferencia de la original, emite un aroma dulce. Muy apreciada.",
+    "price": "140.00",
+    "stock": 6,
+    "featured": false,
+    "image": "products/aurora-ivy-1.jpg",
+    "image2": "products/aurora-ivy-2.jpg",
+    "image3": "products/aurora-ivy-3.jpg",
+    "image4": "products/aurora-ivy-4.jpg",
+    "created_at": "2026-05-02T19:20:27.362Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "name": "Aurora Ivy",
+    "category": 8,
+    "summary": "Hiedra cambia de color.",
+    "description": "Hojas con patrones de aurora boreal que cambian según el ángulo de la luz y temperatura.",
+    "price": "78.00",
+    "stock": 9,
+    "featured": false,
+    "image": "products/aurora-ivy-1_pZMSa2u.jpg",
+    "image2": "products/aurora-ivy-2_7tjS61i.jpg",
+    "image3": "products/aurora-ivy-3_YthtPpF.jpg",
+    "image4": "products/aurora-ivy-4_GRH9kHj.jpg",
+    "created_at": "2026-05-03T10:49:00.492Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "name": "Solar Sprout",
+    "category": 6,
+    "summary": "Brote que almacena energia.",
+    "description": "Almacena energia solar en sus hojas amarillas. Puede sobrevivir largos periodos en oscuridad.",
+    "price": "40.00",
+    "stock": 28,
+    "featured": false,
+    "image": "products/solar-sprout-4.jpg",
+    "image2": "products/solar-sprout-1.jpg",
+    "image3": "products/solar-sprout-2.jpg",
+    "image4": "products/solar-sprout-3.jpg",
+    "created_at": "2026-05-03T10:51:08.422Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "name": "Meteor Fern",
+    "category": 10,
+    "summary": "Helecho con patrones cráter.",
+    "description": "Hojas con manchas grises que recuerdan meteoritos. Muy resistente, ideal para principiantes.",
+    "price": "65.00",
+    "stock": 21,
+    "featured": false,
+    "image": "products/meteor-fern-2.jpg",
+    "image2": "products/meteor-fern-3.jpg",
+    "image3": "products/meteor-fern-4.jpg",
+    "image4": "products/meteor-fern-1.jpg",
+    "created_at": "2026-05-03T10:52:42.443Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 38,
+  "fields": {
+    "name": "Nebula Cactus",
+    "category": 9,
+    "summary": "Cactus dorado procedente de Andrómeda.",
+    "description": "Añade un toque de otro mundo y sofisticación a tus espacios con este exclusivo cactus extraterrestre originario de la galaxia de Andrómeda. Presenta un cuerpo dorado con acabado metalizado que contrasta con sus vibrantes espinas rojas, creando un punto focal único. Está alojado en una moderna maceta redondeada de cerámica en tono azul verdoso, ideal para interiores contemporáneos.",
+    "price": "58.00",
+    "stock": 30,
+    "featured": false,
+    "image": "products/nebula-cactus-1.jpg",
+    "image2": "products/nebula-cactus-2.jpg",
+    "image3": "products/nebula-cactus-3.jpg",
+    "image4": "products/nebula-cactus-4.jpg",
+    "created_at": "2026-05-03T10:58:46.062Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 39,
+  "fields": {
+    "name": "Plasma Vine",
+    "category": 5,
+    "summary": "Enredadera de plasma liquido.",
+    "description": "Hojas transparentes llenas de plasma rosado que fluye ritmicamente. Emite luz cálida.",
+    "price": "115.00",
+    "stock": 4,
+    "featured": false,
+    "image": "products/plasma-vine-3.jpg",
+    "image2": "products/plasma-vine-4.jpg",
+    "image3": "products/plasma-vine-1.jpg",
+    "image4": "products/plasma-vine-2.jpg",
+    "created_at": "2026-05-03T11:00:43.189Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 40,
+  "fields": {
+    "name": "Nova Succulent",
+    "category": 7,
+    "summary": "Suculenta supernova.",
+    "description": "Hojas naranja brillante en roseta densa. Tolera sequía y luz intensa. Brilla bajo el sol.",
+    "price": "48.00",
+    "stock": 27,
+    "featured": false,
+    "image": "products/nova-succulent-1.jpg",
+    "image2": "products/nova-succulent-2.jpg",
+    "image3": "products/nova-succulent-3.jpg",
+    "image4": "products/nova-succulent-4.jpg",
+    "created_at": "2026-05-03T11:01:57.217Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 41,
+  "fields": {
+    "name": "Andromeda Comet-Ivy",
+    "category": 8,
+    "summary": "Planta etérea de Andrómeda: hojas con constelaciones perforadas y zarcillos fluidos de luz pura.",
+    "description": "Esta fascinante forma de vida botánica, originaria de las regiones ricas en luz estelar de la galaxia de Andrómeda, cautiva por su naturaleza dual. Presenta un grupo central de hojas en forma de corazón con un patrón único de perforaciones bioluminiscentes que se asemejan a constelaciones alienígenas. De estas hojas surgen largos y fluidos zarcillos de una materia etérea, similar a la luz, que se enroscan grácilmente hacia abajo como ríos de pura energía lunar. Es una adición hipnótica y sofisticada para cualquier xenojardín interior, ya que sus zarcillos de luz emiten un suave resplandor calmante.",
+    "price": "87.00",
+    "stock": 9,
+    "featured": true,
+    "image": "products/cinta-estelar-de-andromeda-1.jpg",
+    "image2": "products/cinta-estelar-de-andromeda-4.jpg",
+    "image3": "products/cinta-estelar-de-andromeda-3.jpg",
+    "image4": "products/cinta-estelar-de-andromeda-2.jpg",
+    "created_at": "2026-05-03T18:02:15.832Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 42,
+  "fields": {
+    "name": "Gravity Sprout",
+    "category": 13,
+    "summary": "Brote que levita y gira.",
+    "description": "Estas esferas orbitan en una danza gravitacional suspendida sobre un pedestal de cromo de alta tecnología, alimentadas por una lente de energía cuántica que emite anillos concéntricos de luz. No requiere suelo ni riego tradicional; su nutrición proviene de la refracción de la luz estelar a través de su lente cuántica, convirtiendo el tiempo y la luz en biomasa. Al girar, sus anillos de luz alteran sutilmente el espectro cromático local, creando un oasis de calma visual y un suave zumbido armónico.",
+    "price": "230.00",
+    "stock": 8,
+    "featured": true,
+    "image": "products/gravity-sprout-1.jpg",
+    "image2": "products/gravity-sprout-2.jpg",
+    "image3": "products/gravity-sprout-3.jpg",
+    "image4": "products/gravity-sprout-4.jpg",
+    "created_at": "2026-05-03T18:14:31.739Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 43,
+  "fields": {
+    "name": "Nebula Palm",
+    "category": 13,
+    "summary": "Palmera de colores nebulosa.",
+    "description": "Frondas con patrones de colores espaciales. Planta de acento perfecta para interiores grandes.",
+    "price": "85.00",
+    "stock": 7,
+    "featured": true,
+    "image": "products/nebula-palm-4.jpg",
+    "image2": "products/nebula-palm-1.jpg",
+    "image3": "products/nebula-palm-2.jpg",
+    "image4": "products/nebula-palm-3.jpg",
+    "created_at": "2026-05-03T18:16:18.136Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 44,
+  "fields": {
+    "name": "Chronos Cactus",
+    "category": 13,
+    "summary": "Cactus translúcido de tonos salmón.",
+    "description": "Costillas y espinas que crecen en espirales siguiendo el tiempo. Bajo mantenimiento.",
+    "price": "52.00",
+    "stock": 9,
+    "featured": true,
+    "image": "products/chronos-cactus-3.jpg",
+    "image2": "products/chronos-cactus-4.jpg",
+    "image3": "products/chronos-cactus-1.jpg",
+    "image4": "products/chronos-cactus-2.jpg",
+    "created_at": "2026-05-03T18:19:16.097Z"
+  }
+},
+{
+  "model": "store.order",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-05-03T19:37:56.784Z",
+    "total_price": "386.00",
+    "is_paid": true,
+    "guest_email": null,
+    "first_name": null,
+    "last_name": null,
+    "address_line1": null,
+    "address_line2": null,
+    "postal_code": null,
+    "city": null,
+    "province": null,
+    "phone": null,
+    "delivery_notes": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-05-03T19:48:08.443Z",
+    "total_price": "690.00",
+    "is_paid": true,
+    "guest_email": null,
+    "first_name": null,
+    "last_name": null,
+    "address_line1": null,
+    "address_line2": null,
+    "postal_code": null,
+    "city": null,
+    "province": null,
+    "phone": null,
+    "delivery_notes": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-05-03T19:48:16.980Z",
+    "total_price": "230.00",
+    "is_paid": true,
+    "guest_email": null,
+    "first_name": null,
+    "last_name": null,
+    "address_line1": null,
+    "address_line2": null,
+    "postal_code": null,
+    "city": null,
+    "province": null,
+    "phone": null,
+    "delivery_notes": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-05-03T19:52:09.762Z",
+    "total_price": "230.00",
+    "is_paid": true,
+    "guest_email": null,
+    "first_name": null,
+    "last_name": null,
+    "address_line1": null,
+    "address_line2": null,
+    "postal_code": null,
+    "city": null,
+    "province": null,
+    "phone": null,
+    "delivery_notes": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 5,
+  "fields": {
+    "user": null,
+    "created_at": "2026-06-08T13:41:03.020Z",
+    "total_price": "317.00",
+    "is_paid": true,
+    "guest_email": "grancanash@gmail.com",
+    "first_name": "Alejandro",
+    "last_name": "Sarmiento",
+    "address_line1": "Alto de los Leones, 29 Bajo",
+    "address_line2": "",
+    "postal_code": "35013",
+    "city": "Las Palmas de Gran Canaria",
+    "province": "Las Palmas",
+    "phone": "629623546",
+    "delivery_notes": ""
+  }
+},
+{
+  "model": "store.order",
+  "pk": 6,
+  "fields": {
+    "user": null,
+    "created_at": "2026-06-08T13:42:11.784Z",
+    "total_price": "317.00",
+    "is_paid": true,
+    "guest_email": "grancanash@gmail.com",
+    "first_name": "Alejandro",
+    "last_name": "Sarmiento",
+    "address_line1": "Alto de los Leones, 29 Bajo",
+    "address_line2": "",
+    "postal_code": "35013",
+    "city": "Las Palmas de Gran Canaria",
+    "province": "Las Palmas",
+    "phone": "629623546",
+    "delivery_notes": ""
+  }
+},
+{
+  "model": "store.order",
+  "pk": 7,
+  "fields": {
+    "user": null,
+    "created_at": "2026-06-08T13:52:12.358Z",
+    "total_price": "317.00",
+    "is_paid": true,
+    "guest_email": "grancanash@gmail.com",
+    "first_name": "Alejandro",
+    "last_name": "Sarmiento",
+    "address_line1": "Alto de los Leones, 29 Bajo",
+    "address_line2": "",
+    "postal_code": "35013",
+    "city": "Las Palmas de Gran Canaria",
+    "province": "Las Palmas",
+    "phone": "629623546",
+    "delivery_notes": ""
+  }
+},
+{
+  "model": "store.order",
+  "pk": 8,
+  "fields": {
+    "user": null,
+    "created_at": "2026-06-08T13:52:35.730Z",
+    "total_price": "230.00",
+    "is_paid": true,
+    "guest_email": "grancanash@gmail.com",
+    "first_name": "Alejandro",
+    "last_name": "Sarmiento",
+    "address_line1": "Alto de los Leones, 29 Bajo",
+    "address_line2": "",
+    "postal_code": "35013",
+    "city": "Las Palmas de Gran Canaria",
+    "province": "Las Palmas",
+    "phone": "629623546",
+    "delivery_notes": ""
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 42,
+    "price": "230.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 44,
+    "price": "52.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 4,
+    "product": 42,
+    "price": "230.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 7,
+    "product": 42,
+    "price": "230.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 7,
+    "product": 41,
+    "price": "87.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 8,
+    "product": 42,
+    "price": "230.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "store.shippingprofile",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "first_name": "Alejandro",
+    "last_name": "Sarmiento",
+    "address_line1": "Alto de los Leones, 29 Bajo",
+    "postal_code": "35013",
+    "city": "Las Palmas de Gran Canaria",
+    "province": "Las Palmas",
+    "phone": "629623546"
+  }
+}
+]
