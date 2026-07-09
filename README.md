@@ -52,9 +52,9 @@ Puedes probar la aplicación aquí: [https://tienda.grancanash.es](https://tiend
 
 ## 📸 Capturas de Pantalla
 
-| Tienda | Admin |
-|---|---|
-| Catálogo de productos, carrito y checkout | Panel de gestión de productos, categorías y pedidos |
+| Catálogo | Carrito | Admin |
+|---|---|---|
+| ![Catálogo](./docs/catalog.png) | ![Carrito](./docs/cart.png) | ![Admin](./docs/admin.png) |
 
 ---
 
