@@ -58,30 +58,6 @@ Puedes probar la aplicación aquí: [https://tienda.grancanash.es](https://tiend
 
 ---
 
-## 🚀 Despliegue Local
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/DJANGO-Tarea-Proyecto-2-Tienda-Online-Minimalista.git
-cd DJANGO-Tarea-Proyecto-2-Tienda-Online-Minimalista
-
-# 2. Copiar variables de entorno
-cp .env.example .env
-# Editar .env con tus valores (DEBUG=true para desarrollo)
-
-# 3. Levantar con Docker
-docker compose up -d --build
-
-# 4. Aplicar migraciones y cargar datos iniciales
-docker compose exec backend python manage.py migrate
-docker compose exec backend python manage.py loaddata fixture.json
-docker compose exec backend python manage.py setup_demo_admin
-```
-
-La tienda estará disponible en `http://localhost:8060`.
-
----
-
 ## 📁 Estructura del Proyecto
 
 ```
