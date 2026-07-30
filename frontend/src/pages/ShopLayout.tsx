@@ -218,7 +218,7 @@ const ShopLayout = () => {
             </header>
 
             {/* Contenido Principal */}
-            <main className="max-w-7xl mx-auto px-4 py-8">
+            <main className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-8">
                 <Outlet />
             </main>
 

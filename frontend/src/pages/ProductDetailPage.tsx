@@ -64,7 +64,7 @@ const ProductDetailPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 {/* COLUMNA IZQUIERDA: Galería */}
                 <div className="space-y-4">
-                    <div className="aspect-square rounded-3xl overflow-hidden bg-base-200 border border-base-200">
+                    <div className="aspect-square rounded-3xl overflow-hidden bg-base-200 border border-base-content/10 shadow-sm">
                         {mainImage ? (
                             <img src={mainImage} alt={product.name} className="w-full h-full object-cover" />
                         ) : (
@@ -78,8 +78,8 @@ const ProductDetailPage = () => {
                             <button 
                                 key={index}
                                 onClick={() => setMainImage(img)}
-                                className={`aspect-square rounded-xl overflow-hidden border-2 transition-all 
-                                ${mainImage === img ? 'border-primary' : 'border-transparent opacity-60 hover:opacity-100'}`}
+                                className={`aspect-square rounded-xl overflow-hidden border-2 transition-all duration-300
+                                ${mainImage === img ? 'border-primary shadow-md shadow-primary/20' : 'border-base-content/10 opacity-60 hover:opacity-100 hover:border-primary/30'}`}
                             >
                                 <img src={img as string} className="w-full h-full object-cover" alt={`Vista ${index + 1}`} />
                             </button>
@@ -96,7 +96,7 @@ const ProductDetailPage = () => {
                     <h1 className="text-5xl font-black tracking-tighter mb-2">{product.name}</h1>
                     <p className="text-xl text-primary font-bold mb-6">{product.price} €</p>
                     
-                    <div className="bg-base-200/50 p-6 rounded-2xl mb-8">
+                    <div className="bg-base-200/50 p-6 rounded-2xl mb-8 shadow-sm">
                         <h3 className="font-bold mb-2 uppercase text-[10px] opacity-40">Resumen de especie</h3>
                         <p className="text-lg leading-relaxed">{product.summary}</p>
                     </div>

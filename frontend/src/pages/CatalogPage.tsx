@@ -124,8 +124,8 @@ const CatalogPage = () => {
                 <>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         {products.map(product => (
-                        <div key={product.id} className="group flex flex-col h-full">
-                            <Link to={`/product/${product.id}`} className="relative aspect-3/4 overflow-hidden rounded-2xl bg-base-200 mb-4 block">
+                        <div key={product.id} className="group flex flex-col h-full bg-base-100 rounded-2xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
+                            <Link to={`/product/${product.id}`} className="relative aspect-3/4 overflow-hidden rounded-xl bg-base-200 mb-4 block ring-1 ring-base-content/10">
                                 {product.image ? (
                                     <img
                                         src={product.image}
@@ -145,7 +145,7 @@ const CatalogPage = () => {
                                 </div>
                             </Link>
 
-                            <div className="space-y-1 flex-1">
+                            <div className="space-y-1 flex-1 px-0.5">
                                 <Link to={`/product/${product.id}`} className="block">
                                     <h3 className="font-bold text-lg hover:text-primary transition-colors leading-tight">
                                         {product.name}
